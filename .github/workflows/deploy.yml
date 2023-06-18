@@ -43,10 +43,6 @@ jobs:
       # HonKitのビルド
       - name: build HonKit
         run: npm run build
-      # .htmlに空白が多いのでフォーマット
-      - name: format
-        # 以下コマンドでprettierが起動するようにpackage.jsonで設定しています
-        run: npm run format
       # アーティファクトのアップロード
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
