@@ -4,9 +4,7 @@ name: build HonKit and deploy Pages
 
 # ワークフローのトリガーイベント：
 on:
-  # masterブランチへのpush
   push:
-    branches: ["master"]
 
   # Actionsタブから手動実行
   workflow_dispatch:
